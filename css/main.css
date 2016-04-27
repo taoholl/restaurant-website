@@ -11,8 +11,236 @@ html{
   text-size-adjust: 100%;
   box-sizing:border-box;
   font: normal 100%/1.3 sans-serif;
+  font-family: "Merriweather", serif;
   }
 
   *, *::before, *::after {
   	box-sizing: inherit;
   }
+
+  header {
+  padding: .5rem 0;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.logo {
+  margin: 0 0 .5rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  width:12%;
+}
+
+.navbar {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.bannerimg {
+  display: block;
+  width: 200%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+}
+
+.main-banner {
+  position: relative;
+}
+
+.banner-content {
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 65%;
+  max-width: 30em;
+  float: right;
+  text-align: center;
+  padding: 0;
+}
+
+.sub {
+  font-style: italic;
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  display:inline-block;
+  margin: 0 .5em 1em .5em;
+  max-width: 20em;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+.btn-big {
+  font-size: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.img {
+  border-radius: 10px;
+  overflow:hidden;
+}
+
+.menuimg {
+  max-width: 100%;
+ padding:.5em;
+ border-radius: 10px;
+}
+
+.card-title {
+  text-align:center;
+  padding: 10px;
+  background-color: #666;
+  color: #fff;
+}
+
+.cardbody {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.locationimg {
+  width: 200%;
+  transform:translateX(-25%);
+  padding: 10px;
+}
+
+.lbanner-content {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.ltitle {
+  background-color: #666;
+  color: #fff;
+  text-align: center;
+  padding: 7px;
+}
+
+.ltittle2 {
+  background-color: #666;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+dt {
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+
+}
+
+dd {
+  text-align: center;
+  margin:0;
+  padding: 5px;
+}
+
+.loyalbanner-content1 {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.loyalbanner-title {
+  background-color: #666;
+  color: #fff;
+  padding: 10px;
+  text-align:center;
+}
+
+.loyalbanner-content2 {
+  background-color: #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.loyalimgwrap {
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.loyalimg {
+  width: 200%;
+
+}
+
+.cbanner-content {
+  background-color: #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.cbannertitle {
+  background-color: #666;
+  color: #fff;
+  padding: 10px;
+  text-align:center;
+}
+
+.abtn {
+  font-weight: bold;
+  color: #666;
+}
+.clickhere {
+  text-align: center;
+}
+.img-flex {
+  width:10%;
+  float:right;
+}
+
+footer {
+  background-color: #666;
+  padding: 2rem;
+  color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
