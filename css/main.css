@@ -74,6 +74,7 @@ body {
 
 .main-banner {
   position: relative;
+  overflow: hidden;
 }
 
 .banner-content {
@@ -107,7 +108,7 @@ body {
 }
 
 .btn:hover {
-  background-color: red;
+  background-color: #666;
 }
 
 .btn-big {
@@ -139,6 +140,9 @@ h1 {
 .cardbody {
   background-color: #ddd;
   padding: 10px;
+}
+.location {
+  overflow:hidden;
 }
 
 .locationimg {
@@ -209,6 +213,9 @@ dd {
 
 }
 
+.catering {
+  overflow:hidden;
+}
 .cbanner-content {
   background-color: #ccc;
   padding: 10px;
@@ -235,8 +242,14 @@ dd {
   float:right;
 }
 
+.bottomnav {
+  padding: .5rem 0;
+  background-color: #999;
+  text-align: center;
+}
+
 footer {
-  background-color: #666;
+  background-color: #333;
   padding: 2rem;
   color: #fff;
 }
