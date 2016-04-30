@@ -262,7 +262,6 @@ footer {
   color: #fff;
 }
 
-}
 
 @media only screen and (min-width: 25em) {
 
@@ -314,7 +313,6 @@ html {
   .card-title {
     text-align:center;
     padding: 10px;
-    padding-top:
     background-color: #666;
     color: #fff;
   }
@@ -365,7 +363,7 @@ text-align: center;
 
 }
 
-@media only screen and (min-width: 60em)  {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
