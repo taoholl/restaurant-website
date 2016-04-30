@@ -18,7 +18,7 @@ html {
   box-sizing: inherit;
 }
 
-header {
+header h1 {
   padding: .5rem 0;
   background-color: #ccc;
   text-align: center;
